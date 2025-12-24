@@ -1,62 +1,62 @@
 # PuantajX 🏗️🏗️
 
-**PuantajX**, inşaat ve şantiye yönetimini dijitalleştiren, modern ve verimli bir personel takip ve günlük raporlama uygulamasıdır. Hem mobil (Android/iOS) hem de web platformlarında kesintisiz senkronizasyon ile çalışır.
+**PuantajX** is a modern and efficient personnel tracking and daily reporting application designed to digitize construction and site management. It works seamlessly across mobile (Android/iOS) and web platforms with real-time synchronization.
 
-## ✨ Özellikler
+## ✨ Features
 
-- **📍 Proje Yönetimi:** Birden fazla şantiyeyi ve projeyi tek ekrandan yönetin.
-- **👥 Ekip Yönetimi:** Personel listesi, rol tanımları (Sahip, Yönetici, İzleyici) ve ekip bazlı yetkilendirme.
-- **📝 Günlük Rapor (Daily Report):** Hava durumu, vardiya, yapılan işler ve görsel kanıtlarla desteklenen profesyonel raporlama sihirbazı.
-- **⏰ Puantaj Takibi:** Personel devam kontrolü ve otomatik hakediş hesaplama temelleri.
-- **🔄 Gerçek Zamanlı Senkronizasyon:** Supabase Realtime ile veriler tüm cihazlarda anlık olarak güncellenir.
-- **📶 Çevrimdışı Mod:** İnternet olmasa dahi veri girişi yapabilir, bağlantı geldiğinde otomatik senkronize edebilirsiniz (Mobil).
+- **📍 Project Management:** Manage multiple construction sites and projects from a single dashboard.
+- **👥 Team Management:** Personnel lists, role definitions (Owner, Admin, Viewer), and team-based authorization.
+- **📝 Daily Reports:** A professional reporting wizard supported by weather data, shifts, work logs, and visual evidence (photos).
+- **⏰ Attendance Tracking:** Personnel attendance control and automated payment/progress tracking foundations.
+- **🔄 Real-time Sync:** Powered by Supabase Realtime, data is updated instantly across all devices.
+- **📶 Offline Mode:** Enter data even without an internet connection; it automatically syncs once you're back online (Mobile).
 
-## 🚀 Teknoloji Yığını
+## 🚀 Tech Stack
 
 - **Framework:** [Flutter](https://flutter.dev/) (3.x+)
-- **State Management:** [Riverpod](https://riverpod.dev/) (Generator tabanlı)
+- **State Management:** [Riverpod](https://riverpod.dev/) (Generator-based)
 - **Backend:** [Supabase](https://supabase.com/) (Auth, Database, Storage, Realtime, Functions)
-- **Local DB:** [Isar](https://isar.dev/) (Yüksek performanslı NoSQL)
+- **Local DB:** [Isar](https://isar.dev/) (High-performance NoSQL)
 - **Navigation:** [GoRouter](https://pub.dev/packages/go_router)
 
-## 🛠️ Kurulum
+## 🛠️ Installation
 
-1. **Depoyu klonlayın:**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/KFSoftwareApps/PuantajX.git
    ```
 
-2. **Bağımlılıkları yükleyin:**
+2. **Install dependencies:**
    ```bash
    flutter pub get
    ```
 
-3. **Kod üreticilerini çalıştırın:**
+3. **Run code generation:**
    ```bash
    flutter pub run build_runner build --delete-conflicting-outputs
    ```
 
-4. **Uygulamayı başlatın:**
+4. **Launch the app:**
    ```bash
    flutter run
    ```
 
-## 📂 Dosya Yapısı
+## 📂 Project Structure
 
 ```text
 lib/
-├── core/           # Ortak servisler, temalar, widget'lar ve platform adaptörleri
-├── features/       # Özellik bazlı klasörleme (Domain-Driven Design yaklaşımı)
-│   ├── auth/       # Giriş, Kayıt, Organizasyon ve Ekip Yönetimi
-│   ├── project/    # Proje listeleme, detay ve düzenleme
-│   ├── report/     # Günlük rapor sihirbazı ve geçmiş raporlar
-│   └── workers/    # Personel kayıt ve takip
-└── main.dart       # Uygulama giriş noktası
+├── core/           # Common services, themes, widgets, and platform adapters
+├── features/       # Feature-based folder structure (Domain-Driven Design approach)
+│   ├── auth/       # Login, Registration, Organization & Team Management
+│   ├── project/    # Project listing, details, and editing
+│   ├── report/     # Daily report wizard and history
+│   └── workers/    # Personnel registration and tracking
+└── main.dart       # Application entry point
 ```
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje **KF Software** tarafından geliştirilmiştir. Tüm hakları saklıdır.
+Developed by **KF Software**. All rights reserved.
 
 ---
 Developed with ❤️ by [KF Software](mailto:kfsoftwareapp@gmail.com)
