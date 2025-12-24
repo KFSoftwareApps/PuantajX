@@ -1,0 +1,910 @@
+﻿Compiling lib\main.dart for the Web...                          
+flutter : Wasm dry run
+ findings:
+At line:1 char:1
++ flutter build web --
+release > build_log_ut
+f8.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Wasm dry r   
+ un findings::Stri    
+ng) [], RemoteExc    e
+ption
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+Found incompatibilitie
+s with WebAssembly.
+
+package:isar/src/nativ
+e/isar_core.dart 4:1 -
+ 'dart:ffi' can't be i
+mported when compiling
+ to Wasm. (2)
+package:isar/src/nativ
+e/isar_link_impl.dart 
+3:1 - 'dart:ffi' can't
+ be imported when comp
+iling to Wasm. (2)
+package:isar/src/nativ
+e/open.dart 4:1 - 'dar
+t:ffi' can't be import
+ed when compiling to W
+asm. (2)
+package:isar/src/nativ
+e/split_words.dart 1:1
+ - 'dart:ffi' can't be
+ imported when compili
+ng to Wasm. (2)
+package:isar/src/nativ
+e/bindings.dart 6:1 - 
+'dart:ffi' can't be im
+ported when compiling 
+to Wasm. (2)
+package:isar/src/nativ
+e/isar_collection_impl
+.dart 5:1 - 'dart:ffi'
+ can't be imported whe
+n compiling to Wasm. (
+2)
+package:isar/src/nativ
+e/txn.dart 3:1 - 'dart
+:ffi' can't be importe
+d when compiling to Wa
+sm. (2)
+package:isar/src/nativ
+e/encode_string.dart 1
+:1 - 'dart:ffi' can't 
+be imported when compi
+ling to Wasm. (2)
+package:isar/src/nativ
+e/isar_impl.dart 4:1 -
+ 'dart:ffi' can't be i
+mported when compiling
+ to Wasm. (2)
+package:ffi/src/alloca
+tion.dart 5:1 - 'dart:
+ffi' can't be imported
+ when compiling to Was
+m. (2)
+package:ffi/src/arena.
+dart 8:1 - 'dart:ffi' 
+can't be imported when
+ compiling to Wasm. (2
+)
+package:ffi/src/utf16.
+dart 5:1 - 'dart:ffi' 
+can't be imported when
+ compiling to Wasm. (2
+)
+package:ffi/src/utf8.d
+art 6:1 - 'dart:ffi' c
+an't be imported when 
+compiling to Wasm. (2)
+package:isar/src/nativ
+e/index_key.dart 3:1 -
+ 'dart:ffi' can't be i
+mported when compiling
+ to Wasm. (2)
+package:isar/src/nativ
+e/query_build.dart 3:1
+ - 'dart:ffi' can't be
+ imported when compili
+ng to Wasm. (2)
+package:isar/src/nativ
+e/query_impl.dart 4:1 
+- 'dart:ffi' can't be 
+imported when compilin
+g to Wasm. (2)
+file:///C:/Users/tkalp
+/AppData/Local/Pub/Cac
+he/hosted/pub.dev/imag
+e-4.3.0/lib/src/exif/i
+fd_directory.dart 174:
+26 - avoid_double_and_
+int_checks lint violat
+ion: Explicit check fo
+r double or int. (13)
+file:///C:/Users/tkalp
+/AppData/Local/Pub/Cac
+he/hosted/pub.dev/imag
+e-4.3.0/lib/src/exif/i
+fd_directory.dart 183:
+26 - avoid_double_and_
+int_checks lint violat
+ion: Explicit check fo
+r double or int. (13)
+
+Consider addressing th
+ese issues to enable w
+asm builds. See docs f
+or more info: https://
+docs.flutter.dev/platf
+orm-integration/web/wa
+sm
+
+Use --no-wasm-dry-run 
+to disable these warni
+ngs.
+Target dart2js failed:
+ ProcessException: Pro
+cess exited abnormally
+ with exit code 1:
+lib/features/report/da
+ta/models/daily_report
+_model.g.dart:18:8:
+Error: The integer lit
+eral 36112530672699525
+73 can't be represente
+d exactly in JavaScrip
+t.
+  id: -361125306726995
+2573,
+       ^^^^^^^^^^^^^^^
+^^^^
+lib/features/report/da
+ta/models/daily_report
+_model.g.dart:126:11:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/report/da
+ta/models/daily_report
+_model.g.dart:139:11:
+Error: The integer lit
+eral 46125127501728611
+84 can't be represente
+d exactly in JavaScrip
+t.
+      id: 461251275017
+2861184,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/report/da
+ta/models/daily_report
+_model.g.dart:4718:7:
+Error: The integer lit
+eral 61453344521778614
+96 can't be represente
+d exactly in JavaScrip
+t.
+  id: 6145334452177861
+496,
+      ^^^^^^^^^^^^^^^^
+^^^
+lib/features/report/da
+ta/models/daily_report
+_model.g.dart:3595:8:
+Error: The integer lit
+eral 43930716352141787
+16 can't be represente
+d exactly in JavaScrip
+t.
+  id: -439307163521417
+8716,
+       ^^^^^^^^^^^^^^^
+^^^^
+lib/features/project/d
+ata/models/project_mod
+el.g.dart:18:7:
+Error: The integer lit
+eral 33029996288384858
+49 can't be represente
+d exactly in JavaScrip
+t.
+  id: 3302999628838485
+849,
+      ^^^^^^^^^^^^^^^^
+^^^
+lib/features/project/d
+ata/models/project_mod
+el.g.dart:109:11:
+Error: The integer lit
+eral 29888607835628748
+05 can't be represente
+d exactly in JavaScrip
+t.
+      id: 298886078356
+2874805,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/project/d
+ata/models/project_mod
+el.g.dart:122:11:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/project/d
+ata/models/worker_mode
+l.g.dart:18:8:
+Error: The integer lit
+eral 85396628125944682
+2 can't be represented
+ exactly in JavaScript
+.
+  id: -853966281259446
+822,
+       ^^^^^^^^^^^^^^^
+^^^
+lib/features/project/d
+ata/models/worker_mode
+l.g.dart:129:11:
+Error: The integer lit
+eral 46125127501728611
+84 can't be represente
+d exactly in JavaScrip
+t.
+      id: 461251275017
+2861184,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/project/d
+ata/models/worker_mode
+l.g.dart:142:11:
+Error: The integer lit
+eral 87969594785572245
+3 can't be represented
+ exactly in JavaScript
+.
+      id: 879695947855
+722453,
+          ^^^^^^^^^^^^
+^^^^^^
+lib/features/project/d
+ata/models/worker_mode
+l.g.dart:155:11:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/attendanc
+e/data/models/attendan
+ce_model.g.dart:18:7:
+Error: The integer lit
+eral 46184090641903265
+01 can't be represente
+d exactly in JavaScrip
+t.
+  id: 4618409064190326
+501,
+      ^^^^^^^^^^^^^^^^
+^^^
+lib/features/attendanc
+e/data/models/attendan
+ce_model.g.dart:106:11
+:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/auth/data
+/models/user_model.g.d
+art:18:8:
+Error: The integer lit
+eral 78381710484299790
+76 can't be represente
+d exactly in JavaScrip
+t.
+  id: -783817104842997
+9076,
+       ^^^^^^^^^^^^^^^
+^^^^
+lib/features/auth/data
+/models/user_model.g.d
+art:125:12:
+Error: The integer lit
+eral 26095440403582047
+ can't be represented 
+exactly in JavaScript.
+      id: -26095440403
+582047,
+           ^^^^^^^^^^^
+^^^^^^
+lib/features/auth/data
+/models/user_model.g.d
+art:138:11:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/auth/data
+/models/organization_m
+odel.g.dart:18:7:
+Error: The integer lit
+eral 14209200378536016
+26 can't be represente
+d exactly in JavaScrip
+t.
+  id: 1420920037853601
+626,
+      ^^^^^^^^^^^^^^^^
+^^^
+lib/features/auth/data
+/models/organization_m
+odel.g.dart:98:11:
+Error: The integer lit
+eral 32978048293468379
+0 can't be represented
+ exactly in JavaScript
+.
+      id: 329780482934
+683790,
+          ^^^^^^^^^^^^
+^^^^^^
+lib/features/auth/data
+/models/organization_m
+odel.g.dart:111:11:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/core/sync/data/mod
+els/outbox_item.g.dart
+:18:7:
+Error: The integer lit
+eral 17661471429790699
+56 can't be represente
+d exactly in JavaScrip
+t.
+  id: 1766147142979069
+956,
+      ^^^^^^^^^^^^^^^^
+^^^
+lib/core/sync/data/mod
+els/outbox_item.g.dart
+:73:12:
+Error: The integer lit
+eral 34335354839873025
+84 can't be represente
+d exactly in JavaScrip
+t.
+      id: -34335354839
+87302584,
+           ^^^^^^^^^^^
+^^^^^^^^
+lib/core/sync/data/mod
+els/outbox_item.g.dart
+:86:11:
+Error: The integer lit
+eral 27885305103511988
+29 can't be represente
+d exactly in JavaScrip
+t.
+      id: 278853051035
+1198829,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/project/d
+ata/models/project_wor
+ker_model.g.dart:18:8:
+Error: The integer lit
+eral 76459995408911873
+71 can't be represente
+d exactly in JavaScrip
+t.
+  id: -764599954089118
+7371,
+       ^^^^^^^^^^^^^^^
+^^^^
+lib/features/project/d
+ata/models/project_wor
+ker_model.g.dart:68:11
+:
+Error: The integer lit
+eral 33056562821237911
+13 can't be represente
+d exactly in JavaScrip
+t.
+      id: 330565628212
+3791113,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/project/d
+ata/models/project_wor
+ker_model.g.dart:81:12
+:
+Error: The integer lit
+eral 43966590481044840
+2 can't be represented
+ exactly in JavaScript
+.
+      id: -43966590481
+0448402,
+           ^^^^^^^^^^^
+^^^^^^^
+lib/features/project/d
+ata/models/project_wor
+ker_model.g.dart:94:12
+:
+Error: The integer lit
+eral 11073893003529560
+56 can't be represente
+d exactly in JavaScrip
+t.
+      id: -11073893003
+52956056,
+           ^^^^^^^^^^^
+^^^^^^^^
+lib/features/project/d
+ata/models/project_wor
+ker_model.g.dart:107:1
+1:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/core/subscription/
+subscription_model.g.d
+art:18:8:
+Error: The integer lit
+eral 34262399352250261
+38 can't be represente
+d exactly in JavaScrip
+t.
+  id: -342623993522502
+6138,
+       ^^^^^^^^^^^^^^^
+^^^^
+lib/core/subscription/
+subscription_model.g.d
+art:75:11:
+Error: The integer lit
+eral 46125127501728611
+84 can't be represente
+d exactly in JavaScrip
+t.
+      id: 461251275017
+2861184,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:18:8:
+Error: The integer lit
+eral 30062424897033539
+91 can't be represente
+d exactly in JavaScrip
+t.
+  id: -300624248970335
+3991,
+       ^^^^^^^^^^^^^^^
+^^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:73:12:
+Error: The integer lit
+eral 62381910802935651
+25 can't be represente
+d exactly in JavaScrip
+t.
+      id: -62381910802
+93565125,
+           ^^^^^^^^^^^
+^^^^^^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:1254:7:
+Error: The integer lit
+eral 58311410111709670
+2 can't be represented
+ exactly in JavaScript
+.
+  id: 5831141011170967
+02,
+      ^^^^^^^^^^^^^^^^
+^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:1286:12:
+Error: The integer lit
+eral 62381910802935651
+25 can't be represente
+d exactly in JavaScrip
+t.
+      id: -62381910802
+93565125,
+           ^^^^^^^^^^^
+^^^^^^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:2355:7:
+Error: The integer lit
+eral 57775393702319068
+92 can't be represente
+d exactly in JavaScrip
+t.
+  id: 5777539370231906
+892,
+      ^^^^^^^^^^^^^^^^
+^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:2392:12:
+Error: The integer lit
+eral 62381910802935651
+25 can't be represente
+d exactly in JavaScrip
+t.
+      id: -62381910802
+93565125,
+           ^^^^^^^^^^^
+^^^^^^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:3821:8:
+Error: The integer lit
+eral 47193922726796796
+0 can't be represented
+ exactly in JavaScript
+.
+  id: -471939227267967
+960,
+       ^^^^^^^^^^^^^^^
+^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:3861:11:
+Error: The integer lit
+eral 46125127501728611
+84 can't be represente
+d exactly in JavaScrip
+t.
+      id: 461251275017
+2861184,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:3874:12:
+Error: The integer lit
+eral 20058265774023748
+15 can't be represente
+d exactly in JavaScrip
+t.
+      id: -20058265774
+02374815,
+           ^^^^^^^^^^^
+^^^^^^^^
+lib/features/auth/data
+/models/security_model
+s.g.dart:3887:11:
+Error: The integer lit
+eral 18522537674168921
+98 can't be represente
+d exactly in JavaScrip
+t.
+      id: 185225376741
+6892198,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/project/d
+ata/models/project_mem
+ber_model.g.dart:18:8:
+Error: The integer lit
+eral 83773812903558814
+16 can't be represente
+d exactly in JavaScrip
+t.
+  id: -837738129035588
+1416,
+       ^^^^^^^^^^^^^^^
+^^^^
+lib/features/project/d
+ata/models/project_mem
+ber_model.g.dart:73:11
+:
+Error: The integer lit
+eral 33056562821237911
+13 can't be represente
+d exactly in JavaScrip
+t.
+      id: 330565628212
+3791113,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/project/d
+ata/models/project_mem
+ber_model.g.dart:86:12
+:
+Error: The integer lit
+eral 20058265774023748
+15 can't be represente
+d exactly in JavaScrip
+t.
+      id: -20058265774
+02374815,
+           ^^^^^^^^^^^
+^^^^^^^^
+lib/features/project/d
+ata/models/project_mem
+ber_model.g.dart:99:11
+:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/report/da
+ta/models/share_token_
+model.g.dart:18:7:
+Error: The integer lit
+eral 18863379752114739
+35 can't be represente
+d exactly in JavaScrip
+t.
+  id: 1886337975211473
+935,
+      ^^^^^^^^^^^^^^^^
+^^^
+lib/features/report/da
+ta/models/share_token_
+model.g.dart:68:12:
+Error: The integer lit
+eral 58986501662549672
+71 can't be represente
+d exactly in JavaScrip
+t.
+      id: -58986501662
+54967271,
+           ^^^^^^^^^^^
+^^^^^^^^
+lib/features/report/da
+ta/models/share_token_
+model.g.dart:81:11:
+Error: The integer lit
+eral 17328546448966524
+67 can't be represente
+d exactly in JavaScrip
+t.
+      id: 173285464489
+6652467,
+          ^^^^^^^^^^^^
+^^^^^^^
+lib/features/finance/d
+ata/models/pay_adjustm
+ent_model.g.dart:18:7:
+Error: The integer lit
+eral 68011689600942980
+52 can't be represente
+d exactly in JavaScrip
+t.
+  id: 6801168960094298
+052,
+      ^^^^^^^^^^^^^^^^
+^^^
+lib/features/finance/d
+ata/models/pay_adjustm
+ent_model.g.dart:79:11
+:
+Error: The integer lit
+eral 57476449318931839
+48 can't be represente
+d exactly in JavaScrip
+t.
+      id: 574764493189
+3183948,
+          ^^^^^^^^^^^^
+^^^^^^^
+Error: Compilation fai
+led.
+  Command: C:\src\flut
+ter\bin\cache\dart-sdk
+\bin\dart.exe compile 
+js --platform-binaries
+=C:\src\flutter\bin\ca
+che\flutter_web_sdk\ke
+rnel --invoker=flutter
+_tool -Ddart.vm.produc
+t=true -DFLUTTER_VERSI
+ON=3.38.2 -DFLUTTER_CH
+ANNEL=stable -DFLUTTER
+_GIT_URL=https://githu
+b.com/flutter/flutter.
+git -DFLUTTER_FRAMEWOR
+K_REVISION=f5a8537f90 
+-DFLUTTER_ENGINE_REVIS
+ION=b5990e5ccc -DFLUTT
+ER_DART_VERSION=3.10.0
+ -DFLUTTER_WEB_USE_SKI
+A=true -DFLUTTER_WEB_U
+SE_SKWASM=false -DFLUT
+TER_WEB_CANVASKIT_URL=
+https://www.gstatic.co
+m/flutter-canvaskit/b5
+990e5ccc5e325fd24f0746
+e7d6689bbebc7c65/ --na
+tive-null-assertions -
+-no-source-maps -O4 --
+minify -o D:\PuantajX\
+.dart_tool\flutter_bui
+ld\4fa81c60bcc0c12a872
+2ebd2def9b2ff\app.dill
+ --packages=D:\Puantaj
+X\.dart_tool\package_c
+onfig.json --cfe-only 
+D:\PuantajX\.dart_tool
+\flutter_build\4fa81c6
+0bcc0c12a8722ebd2def9b
+2ff\main.dart
+#0      RunResult.thro
+wException (package:fl
+utter_tools/src/base/p
+rocess.dart:153:5)
+#1      _DefaultProces
+sUtils.run (package:fl
+utter_tools/src/base/p
+rocess.dart:379:19)
+<asynchronous suspensi
+on>
+#2      Dart2JSTarget.
+build (package:flutter
+_tools/src/build_syste
+m/targets/web.dart:207
+:5)
+<asynchronous suspensi
+on>
+#3      _BuildInstance
+._invokeInternal (pack
+age:flutter_tools/src/
+build_system/build_sys
+tem.dart:873:9)
+<asynchronous suspensi
+on>
+#4      Future.wait.<a
+nonymous closure> (dar
+t:async/future.dart:54
+6:21)
+<asynchronous suspensi
+on>
+#5      _BuildInstance
+.invokeTarget (package
+:flutter_tools/src/bui
+ld_system/build_system
+.dart:811:32)
+<asynchronous suspensi
+on>
+#6      Future.wait.<a
+nonymous closure> (dar
+t:async/future.dart:54
+6:21)
+<asynchronous suspensi
+on>
+#7      _BuildInstance
+.invokeTarget (package
+:flutter_tools/src/bui
+ld_system/build_system
+.dart:811:32)
+<asynchronous suspensi
+on>
+#8      FlutterBuildSy
+stem.build (package:fl
+utter_tools/src/build_
+system/build_system.da
+rt:631:16)
+<asynchronous suspensi
+on>
+#9      WebBuilder.bui
+ldWeb (package:flutter
+_tools/src/web/compile
+.dart:94:34)
+<asynchronous suspensi
+on>
+#10     BuildWebComman
+d.runCommand (package:
+flutter_tools/src/comm
+ands/build_web.dart:29
+6:5)
+<asynchronous suspensi
+on>
+#11     FlutterCommand
+.run.<anonymous closur
+e> (package:flutter_to
+ols/src/runner/flutter
+_command.dart:1559:27)
+<asynchronous suspensi
+on>
+#12     AppContext.run
+.<anonymous closure> (
+package:flutter_tools/
+src/base/context.dart:
+154:19)
+<asynchronous suspensi
+on>
+#13     CommandRunner.
+runCommand (package:ar
+gs/command_runner.dart
+:212:13)
+<asynchronous suspensi
+on>
+#14     FlutterCommand
+Runner.runCommand.<ano
+nymous closure> (packa
+ge:flutter_tools/src/r
+unner/flutter_command_
+runner.dart:487:9)
+<asynchronous suspensi
+on>
+#15     AppContext.run
+.<anonymous closure> (
+package:flutter_tools/
+src/base/context.dart:
+154:19)
+<asynchronous suspensi
+on>
+#16     FlutterCommand
+Runner.runCommand (pac
+kage:flutter_tools/src
+/runner/flutter_comman
+d_runner.dart:422:5)
+<asynchronous suspensi
+on>
+#17     run.<anonymous
+ closure>.<anonymous c
+losure> (package:flutt
+er_tools/runner.dart:1
+04:11)
+<asynchronous suspensi
+on>
+#18     AppContext.run
+.<anonymous closure> (
+package:flutter_tools/
+src/base/context.dart:
+154:19)
+<asynchronous suspensi
+on>
+#19     main (package:
+flutter_tools/executab
+le.dart:103:3)
+<asynchronous suspensi
+on>
+
+Compiling lib\main.dart for the Web...                             43,2s
+Error: Failed to compi
+le application for the
+ Web.

@@ -1,0 +1,33 @@
+﻿[INFO] Generating build script...
+[INFO] Generating build script completed, took 246ms
+
+[INFO] Initializing inputs
+[INFO] Reading cached asset graph...
+[INFO] Reading cached asset graph completed, took 187ms
+
+[INFO] Checking for updates since last build...
+[INFO] Checking for updates since last build completed, took 740ms
+
+[INFO] Running build...
+[INFO] Running build completed, took 22ms
+
+[INFO] Caching finalized dependency graph...
+[INFO] Caching finalized dependency graph completed, took 98ms
+
+[SEVERE] isar_generator on lib/core/subscription/subscription_service.dart (cached):
+
+This builder requires Dart inputs without syntax errors.
+However, package:puantaj_x/core/subscription/subscription_service.dart (or an existing part) contains the following errors.
+subscription_service.dart:244:1: Expected to find '}'.
+
+Try fixing the errors and re-running the build.
+
+[SEVERE] riverpod_generator on lib/core/subscription/subscription_service.dart (cached):
+
+This builder requires Dart inputs without syntax errors.
+However, package:puantaj_x/core/subscription/subscription_service.dart (or an existing part) contains the following errors.
+subscription_service.dart:244:1: Expected to find '}'.
+
+Try fixing the errors and re-running the build.
+
+[SEVERE] Failed after 128ms

@@ -1,0 +1,26 @@
+﻿Alias name: upload
+Creation date: 9 Ara 2025
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=PuantajX, OU=Engineering, O=PuantajX, L=Istanbul, ST=Istanbul, C=TR
+Issuer: CN=PuantajX, OU=Engineering, O=PuantajX, L=Istanbul, ST=Istanbul, C=TR
+Serial number: 96373bb8f0aa29ea
+Valid from: Tue Dec 09 15:21:07 TRT 2025 until: Sat Apr 26 15:21:07 TRT 2053
+Certificate fingerprints:
+	 SHA1: 93:13:0E:39:D7:2B:45:F1:FF:6B:CD:0D:80:72:39:C5:D0:DF:86:D1
+	 SHA256: 5C:F8:C8:78:9B:72:4E:EF:3D:1F:02:CA:89:83:31:1F:CB:3A:2E:AD:B7:8D:F9:6A:46:5F:F6:02:C3:E2:5D:2F
+Signature algorithm name: SHA384withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 6E 05 FB 19 8A DE 30 24   3E 22 98 88 2D 8E 56 20  n.....0$>"..-.V 
+0010: D5 22 0C 05                                        ."..
+]
+]
+

@@ -1,0 +1,238 @@
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+
+> Configure project :app
+
+> Task :app:signingReport
+Variant: debug
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+Variant: release
+Config: release
+Store: D:\PuantajX\android\app\upload-keystore.jks
+Alias: upload
+MD5: D3:D4:FE:7D:80:35:C1:8A:0D:97:21:F5:72:E8:5B:CA
+SHA1: 93:13:0E:39:D7:2B:45:F1:FF:6B:CD:0D:80:72:39:C5:D0:DF:86:D1
+SHA-256: 5C:F8:C8:78:9B:72:4E:EF:3D:1F:02:CA:89:83:31:1F:CB:3A:2E:AD:B7:8D:F9:6A:46:5F:F6:02:C3:E2:5D:2F
+Valid until: 26 Nisan 2053 Cumartesi
+----------
+Variant: profile
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :app_links:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :connectivity_plus:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :file_picker:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :flutter_local_notifications:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :flutter_native_splash:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :flutter_plugin_android_lifecycle:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :google_sign_in_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :image_picker_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :isar_flutter_libs:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :package_info_plus:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :path_provider_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :permission_handler_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :printing:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :purchases_flutter:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :share_plus:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :shared_preferences_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+> Task :url_launcher_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\tkalp\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: E7:F4:B3:55:D1:F0:F3:8F:13:74:93:FA:98:33:C7:E6
+SHA1: C7:8F:1A:73:D7:81:AB:FA:6F:38:4C:FB:ED:95:E4:D2:43:F5:1D:18
+SHA-256: 96:2A:F8:F9:BC:72:77:74:A8:1E:2F:10:5A:D5:3F:1E:25:54:47:DA:6E:42:0E:D6:F6:73:CD:83:61:C0:2D:1B
+Valid until: 26 Kasým 2055 Cuma
+----------
+
+BUÝLD SUCCESSFUL in 2s
+23 actionable tasks: 19 executed, 4 up-to-date
